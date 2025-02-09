@@ -1,0 +1,57 @@
+body {
+    background-image: url("./img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    
+    p.dotted {border-style: dotted; border-width: 5px; border-color: red;}
+    p.dashed {border-style: dashed; border-width: 10px; border-color: green; border-radius:5px;}
+    p.solid {border-style: solid;border-width: 10px;border-color: blue;border-radius:8px;}
+    p.double {border-style: double;border-width: thin;border-color: rgb(0, 187, 255);border
+   radius:12px;}
+    p.groove {border-style: groove;border-width: medium;border-color: rgb(234, 255, 0);border
+   radius:5px;}
+    p.ridge {border-style: ridge;border-width: thick;border-radius: 8px;}
+    p.inset {border-style: inset;border-width: 5px;border-color: rgb(255, 0, 0);border-radius: 
+   12px;}
+    p.outset {border-style: outset;border-width: 10px;border-color: rgb(0, 255, 149);border
+   radius: 5px;}
+    p.none {border-style: none;border-width: 5px;}
+    p.hidden {border-style: hidden;border-width: 5px;}
+    p.mix {border-style: dotted dashed solid double;border-width: 5px;border-color: rgb(255, 0, 
+   191);
+    border-radius: 5px;}
+}
+
+p5 {
+    border:1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left:10px;
+    background-color:lightblue;
+    }
+
+p6 {
+ border:1px solid black;
+ padding-top: 50px;
+ padding-bottom: 20px;
+ padding-right: 30px;
+ padding-left:10px;
+ background-color:lightblue;
+}
+
+p9 {
+    height: 800px;
+    width:500px;
+    background-color:powderblue;
+}
+
+
+p10 {
+    background-color:lightgrey;
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    }

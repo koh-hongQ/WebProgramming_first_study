@@ -1,0 +1,261 @@
+.p1 {font-family: "Times New Roman", Times, serif;}
+.p2 {font-family: Arial, Helvetica, sans-serif;}
+.p3 {font-family: "Lucida Console", "Courier New", monospace;}
+
+.p1 {font-family: Arial, sans-serif;}
+ .p2 {font-family: Verdana, sans-serif;}
+ .p3 {font-family: Tahoma, sans-serif;}
+ .p4 {font-family: 'Trebuchet MS', sans-serif;}
+ .p5 {font-family: 'Times New Roman', serif;}
+ .p6 {font-family: Georgia, serif;}
+ .p7 {font-family: Garamond, serif;}
+ .p8 {font-family: 'Courier New', monospace;}
+ .p9 {font-family: 'Brush Script MT', cursive;}
+
+ .p1 {font-family: Arial, sans-serif; font-style: normal; font-weight:normal; font-size:15px;}
+ .p2 {font-family: Arial, sans-serif; font-style: italic; font-weight:bold; font-size:30px;}
+ .p3 {font-family: Arial, sans-serif; font-style: oblique; font-weight:bold; font-size:40px;}
+
+ a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid green;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+    a:hover{
+    background-color: green;
+    color: white;
+    }
+    a:active {
+    background-color: hotpink;
+    text-decoration: underline;
+    }
+
+ table{
+ border: 3px solid;
+ border-collapse: collapse;
+ width: 100%;
+ }
+ th, td {
+ border: 3px solid;
+ border-collapse: collapse;
+ border-color: black;
+ } 
+th {
+ height: 50px;
+ text-align: center;
+ font-weight: bold;
+ font-size: 30px;
+ padding: 15px;
+ background-color: #0b4cf1;
+ color: rgb(239, 233, 235);
+ }
+ td {
+ text-align: left;
+ font-size: 20px;
+ padding: 8px;
+ }
+ 
+ tr:nth-child(even){
+ background-color: #e9f35fe3
+}
+
+div.fixed {
+    position: fixed;
+    bottom: 70px;
+    right:50px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    }
+
+div.relative {
+ position: relative;
+ width: 400px;
+ height: 200px;
+ border: 3px solid #73AD21;
+ } 
+div.absolute{
+ position: absolute;
+ top: 80px;
+ right: 0;
+ width: 200px;
+ height: 100px;
+ border: 3px solid #73AD21;
+ }
+
+ div.sticky{
+    position: sticky;
+    bottom: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+    }
+div {
+ background-color: coral;
+ width: 200px;
+ height: 65px;
+ border: 1px solid;
+ overflow: scroll;
+ }
+
+img {
+ float: right;
+ } 
+
+.div1 {
+ float: left;
+ padding: 10px;
+ border: 3px solid #73AD21;
+ }
+ .div2 {
+ padding: 10px;
+ border: 3px solid red;
+ }
+ .div3 {
+ float: right;
+ padding: 10px; 
+border: 3px solid #73AD21;
+ }
+ .div4 {
+ padding: 10px;
+ border: 3px solid red;
+ clear: right;
+ }
+
+div {
+ border: 3px solid #4CAF50;
+ padding: 5px;
+ }
+ .img1 {
+ float: right;
+ }
+ .img2 {
+ float: right;
+ }
+ .clearfix {
+ overflow: right;
+ }
+
+
+ * {
+    box-sizing: border-box;
+    }
+    .img-container {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    }
+
+
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ width: 200px;
+ background-color: #6ae66c;
+ border: 1px solid black;
+ }
+ li a {
+ display: block;
+ color: black;
+ padding: 8px 16px;
+ text-decoration: none;  
+}
+ li {text-align: left;
+ border-bottom: 1px solid #555;
+ }
+ li:last-child{border-bottom: none;
+ } 
+
+li a:hover {
+ background-color: #555;
+ color: white;
+ }
+
+ li a.active {
+    background-color: #e80be5;
+    color: white;
+    } 
+
+
+body {
+ margin: 0;
+ }
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ width: 25%;
+ background-color: #f1f1f1;
+ position: fixed;
+ height: 100%;
+ overflow: auto;
+ }
+li a {
+ display: block;
+ color: #000;
+ padding: 8px 16px;
+ text-decoration: none;
+ }
+ 
+li a.active {
+ background-color: #04AA6D;
+ color: white;
+ }
+li a:hover:not(.active) {
+ background-color: #555;
+ color: white;
+ }
+
+.dropdown {
+ display: inline-block;
+ }
+ .dropdown-content {
+ display:none;
+ background-color: lightblue;
+ min-width: 100px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ padding: 12px 16px;
+ }
+ .dropdown:hover .dropdown-content {
+ display: block;
+ }
+
+  /* Style The Dropdown Button */
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    }
+    /* The container <div> -needed to 
+   position the dropdown content */
+    .dropdown {
+    display: inline-block;
+    }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}
+    /* Links inside the dropdown */
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;}
+    /* Show the dropdown menu on hover */
+    .dropdown:hover.dropdown-content {display: block;}
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {background-color: #6b6868}
+    /* Change the background color of the dropdown button 
+   when the dropdown content is shown */
+    .dropdown:hover.dropbtn{background-color: #5592cb;}

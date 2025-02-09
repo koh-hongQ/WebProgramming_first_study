@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="1030 강의.css">
+    <script src="1030강의.js"></script>
+
+</head>
+
+
+<body> 
+    <h1>JavaScript Arithmetic</h1>
+    <h2>Arithmetic Operations</h2>
+    <p id="demo"></p>
+    <script>
+    let a = 3;
+    let x = (100 + 50) * a;
+    document.getElementById("demo").innerHTML= " The output is: " + x;
+    </script>  
+    
+    <!-- 
+    <h2 id="demo1">Example 2: What Can JavaScript Do?</h2>
+    <p id="demo2">JavaScript can change the style of an HTML element.</p>
+    <button type="button" onclick="document.getElementById('demo1').style.textAlign='center'">Click 
+   Me!</button>
+    <button type="button" onclick="document.getElementById('demo2').style.textAlign='center'">Click 
+    Me!</button>
+
+    <div id="demo" style="dispaly: none">
+    <h2 >Example 2: What Can JavaScript Do?</h2>
+    <p >JavaScript can change the style of an HTML element.</p>
+   
+    </div>
+    <button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+
+    <h2>Example 6: JavaScript can change HTML attribute values.</h2>
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on 
+    the light</button>
+     <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off 
+    the light</button>
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px"> -->
+
+    <h2>Example 5: Date and Time JavaScript</h2>
+     <p id="demo4"></p>
+    <button type="button"
+    onclick="document.getElementById('demo4').innerHTML= Date()"> Click me to display Date and 
+    Time.</button>
+    <h2>Example 7: The window.print() Method</h2>
+    <p>Click the button to print the current page.</p>
+    <button onclick= "window.print()" >Print this page</button>
+   
+    <h2>Demo JavaScript in Head</h2>
+ <p id="demo">A Paragraph.</p>
+ <button type="button" onclick="myFunction()">Try it</button>
+ <script>
+    function myFunction() {
+    document.getElementById("demo").innerHTML= "Paragraph changed.";
+    }
+    </script>
+
+<h2>Demo External JavaScript</h2>
+<p id="demo5">A Paragraph.</p>
+<button type="button" onclick="myFunction() ">Try it</button>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="1106 강의.css">
+    <script src="1106강의.js"></script>
+
+</head>
+<body>
+    <h1>JavaScript Object Properties</h1>
+    <h2>Nested Objects</h2>
+    <p id="demo"></p>
+    <script>
+    const person = {
+    firstname: "John",
+    lastname: "Doe",
+    age: 50,
+    eyecolor: "blue",
+    myFavs:{
+    Fav1: "reading",
+    Fav2: "Sporting",
+    Fav3: "Traveling"
+    }
+    };
+    document.getElementById("demo").innerHTML=
+    person.firstname + " is " + person.age+ " years old." 
+   + "My best Favorite is: " + person.myFavs.Fav3;
+    </script>
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML Classes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device
+    -width, initial
+    -
+    scale=1.0">
+    <title>Semantic</title>
+<style>
+aside {
+width: 30%;
+padding-left: 15px;
+margin-left: 15px;
+float: right;
+font-style: italic;
+background-color: rgb(243, 180, 180);
+}
+</style>
+
+</head>
+
+
+
+
+
+<body>
+<header>
+<h1>컴퓨터공학부</h1>
+<p>Division of Computer Engineering</p>
+<p>Web programming class</p>
+</header>
+
+<h1> HTML Aside Element </h1>
+<aside>
+<p>The Epcot center is a theme park at Walt Disney World Resort featuring exciting
+attractions, international pavilions, award-winning fireworks and seasonal special
+events.</p>
+</aside>
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot
+was amazing! I had a great summer together with my family!</p>
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot
+was amazing! I had a great summer together with my family!</p>
+<p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot
+was amazing! I had a great summer together with my family!</p>
+<nav>
+<a href="https://computer.hufs.ac.kr/sites/computer/index.do" target="_blank">컴퓨터공학부</a> |
+<a href="https://computer.hufs.ac.kr/computer/10039/subview.do" target="_blank" >학부안내</a> |
+<a href="https://computer.hufs.ac.kr/computer/11454/subview.do" target="_blank" >구성원</a> |
+<a href="https://computer.hufs.ac.kr/computer/10047/subview.do" target="_blank" >수업안내</a> |
+<a href="https://computer.hufs.ac.kr/computer/10063/subview.do" target="_blank" >학사안내</a> |
+<a href="https://computer.hufs.ac.kr/computer/10053/subview.do" target="_blank" >대학원</a> |
+<a href="https://computer.hufs.ac.kr/computer/10058/subview.do" target="_blank" >게시판</a>
+</nav>
+<nav>
+<ul>
+<li> <a href="https://computer.hufs.ac.kr/sites/computer/index.do" target="_blank">컴퓨터공학부</a> </li> 
+<li> <a href="https://computer.hufs.ac.kr/computer/10039/subview.do" target="_blank" >학부안내</a> </li> 
+<li> <a href="https://computer.hufs.ac.kr/computer/11454/subview.do" target="_blank" >구성원</a> </li> 
+<li> <a href="https://computer.hufs.ac.kr/computer/10047/subview.do" target="_blank" >수업안내</a> </li> 
+<li> <a href="https://computer.hufs.ac.kr/computer/10063/subview.do" target="_blank" >학사안내</a> </li> 
+<li> <a href="https://computer.hufs.ac.kr/computer/10053/subview.do" target="_blank" >대학원</a> </li> 
+<li> <a href="https://computer.hufs.ac.kr/computer/10058/subview.do" target="_blank" >게시판</a> </li>
+</ul>
+</nav>
+
+
+
+
+
+<h2>The input disabled attribute</h2>
+<form action="/No_page.php">
+<label for="fname"> First name: </label><br>
+<input type="text" id="fname" name="fname" value="John" disabled><br>
+<label for="lname"> Last name: </label><br>
+<input type="text" id="lname" name="lname" value="Doe" ><br><br>
+<input type="submit" value="Submit">
+</form>
+<h2>The button Element</h2>
+<button type="button" onclick="alert('안녕')" > Click Me! </button>
+
+
+<h2>The datalist Element</h2>
+<form action="/No_page.php">
+<input list="browsers" name="browser" >
+<datalist id="browsers">
+<option value="Edge">
+<option value="Firefox">
+<option value="Chrome">
+<option value="Opera">
+<option value="Safari">
+</datalist>
+<input type="submit">
+</form>
+
+<h2>Password field</h2>
+<form action="/No_page.php">
+<label for="username">Username:</label><br>
+<input type="text" id="username" name="username"><br>
+<label for="pwd">Password:</label><br>
+<input type="password" id="pwd" name="pwd"><br>
+<input type="submit" value="Submit">
+</form>
+<p>The characters in a password field are masked (shown as asterisks or circles).</p>
+
+
+<h2>Radio Buttons</h2>
+<p>Choose your favorite Web language:</p>
+<form>
+<input type="checkbox" id="html" name="fav_language" value="HTML">
+<label for="html">HTML</label> 
+<input type="checkbox" id="css" name="fav_language" value="CSS">
+<label for="css">CSS</label> 
+<input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+<label for="javascript">JavaScript</label>
+</form> 
+
+<h2>Show a Color Picker</h2>
+<p><b>Note:</b> type="color" is not supported in Internet Explorer 11.</p>
+<form action="/No_page.php">
+<label for="favcolor">Select your favorite color:</label>
+<input type="color" id="favcolor" name="favcolor" value="#ff0000" >
+<input type="submit" value="Submit">
+</form>
+
+
+<h2>Date Field</h2>
+<p><strong>Note:</strong> type="date" is not supported in Internet Explorer 11.</p>
+<form action="/No_page.php">
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday">
+<input type="submit" value="Submit">
+</form>
+
+<h2>Local Date and Time Field</h2>
+<form action="/No_page.php">
+<label for="birthdaytime">Birthday (date and time):</label>
+<input type="datetime-local" id="birthdaytime" name="birthdaytime">
+<input type="submit" value="Submit">
+</form>
+
+<h2>File upload</h2>
+<form action="/No_page.php">
+<label for="myfile">Select a file:</label>
+<input type="file" id="myfile" name="myfile"> <br><br>
+<input type="submit" value="Submit">
+</form>
+
+<h2>Number Field</h2>
+<form action="/No_page.php">
+<label for="quantity">Quantity (between 1 and 5):</label>
+<input type="number" id="quantity" name="quantity" min="5" max="15" >
+<input type="submit" value="Submit">
+</form>
+
+<h1>The input placeholder attribute</h1>
+<form action="/No_page.php">
+<label for="phone">Enter a phone number:</label>
+<input type="tel" id="phone" name="phone" placeholder="010-9374-4722" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" ><br><br>
+<input type="submit" value="Submit">
+</form>
+
+<hr>
+<h1> HTML Footer Element </h1>
+<footer>
+<p>Author: Hankuk University of Foreign
+Studies</p>
+<p>글로벌캠퍼스 17035 경기도 용인시 처인구
+모현읍 외대로 81 한국외국어대학교
+글로벌캠퍼스
+(공학관 205
+호)</p>
+<p> TEL. 031
+-330
+-4268 | <a
+href="mailto:ces@hufs.ac.kr">Email:
+ces@hufs.ac.kr</a> </p
+>
+<p>Copyright &copy; Hankuk University
+of Foreign Studies. All Rights
+Reserved.</p>
+</footer>
+
+
+
+</body>
+
+
+
+
+
+</html>

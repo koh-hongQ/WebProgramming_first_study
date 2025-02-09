@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="10.16강의css버전.css">
+</head>
+<body>
+
+    <h1> CSS font-family </h1>
+    <p class="p1">This is a paragraph, shown in the Times New Roman font.</p>
+    <p class="p2">This is a paragraph, shown in the Arial font.</p>
+    <p class="p3">This is a paragraph, shown in the Lucida Console font.</p>
+ 
+ 
+    <h1> Best Web Safe list of CSS font-family </h1>
+    <p class="p1"> This is a paragraph, shown in the Arial font. Numbers 1 2 3 4 5 6 7 8 9 </p>
+    <p class="p2"> This is a paragraph, shown in the Verdana font. Numbers 1 2 3 4 5 6 7 8 9 </p>
+    <p class="p3"> This is a paragraph, shown in the Tahoma font. Numbers 1 2 3 4 5 6 7 8 9 </p>
+    <p class="p4"> This is a paragraph, shown in the Trebuchet MS font. Numbers 1 2 3 4 5 6 7 8 9 </p>
+    <p class="p5"> This is a paragraph, shown in the Times New Roman font. Numbers 1 2 3 4 5 6 7 8 9 </p>
+    <p class="p6"> This is a paragraph, shown in the Georgia font. Numbers 1 2 3 4 5 6 7 8 9 </p>
+    <p class="p7"> This is a paragraph, shown in the Garamond font. Numbers 1 2 3 4 5 6 7 8 9 </p>
+    <p class="p8"> This is a paragraph, shown in the Courier New font. Numbers 1 2 3 4 5 6 7 8 9 </p>
+    <p class="p9"> This is a paragraph, shown in the Brush Script MT font. Numbers 1 2 3 4 5 6 7 8 9 </p>  
+
+        <p class="p1">This is first paragraph. Font style is normal, weight is normal, size is 15.</p>
+ <p class="p2">This is second paragraph. Font style is italic, weight is bold, size is 30.</p>
+ <p class="p3">This is third paragraph. Font style is oblique, weight is bold, size is 40.</p>
+
+
+ <h2>Styling a link depending on state</h2>
+ <p><b><a href="https://eclass.hufs.ac.kr/ilos/main/main_form.acl" 
+target="_blank">This is a HUFS eclass link</a></b></p>
+ <p><b>Note:</b> a:hover MUST come after a:link and a:visited in 
+the CSS definition in order to be effective.</p>
+ <p><b>Note:</b> a:active MUST come after a:hover in the CSS 
+definition in order to be effective.</p>
+
+<h2>Styling a link depending on state</h2>
+ <p><b><a 
+href="https://eclass.hufs.ac.kr/ilos/main/main_form.acl" 
+target="_blank">This is a HUFS eclasslink</a></b></p>
+
+<h2>Link Button</h2>
+ <p><b><a 
+href="https://eclass.hufs.ac.kr/ilos/main/main_form.acl" 
+target="_blank">This is a HUFS eclasslink</a></b></p>
+
+<h2>  CSS Styled Table  </h2>
+ <table>
+ <tr>
+ <th>First Name</th>
+ <th>Last Name</th>
+ <th>Savings</th>  
+ <!-- 위가 테이블 헤드 -->
+ </tr>
+ <tr>
+ <td>Peter</td>
+ <td>Griffin</td>
+ <td>$100</td>
+ </tr>
+<tr>
+ <td>Lois</td>
+ <td>Griffin</td>
+ <td>$150</td>
+ </tr>
+ <tr>
+ <td>Joe</td>
+ <td>Swanson</td>
+ <td>$300</td>
+ </tr>
+ <tr>
+ <td>Cleveland</td>
+ <td>Brown</td>
+ <td>$250</td>
+ </tr>
+ </table>
+
+ <h2>position: fixed;</h2>
+ <p>An element with position: fixed; is positioned relative 
+to the viewport, which means it always stays in the same 
+place even if the page is scrolled:</p>
+ <div class="fixed">
+ This div element has position: fixed;
+ </div>
+
+
+ <h2>position: absolute;</h2>
+ <p>An element with position: absolute; is 
+positioned relative to the nearest 
+positioned ancestor (instead of positioned 
+relative to the viewport, like fixed):</p>
+ <div class="relative">This div element has 
+position: relative;
+ <div class="absolute">This div element has 
+position: absolute;</div>
+ </div>
+
+<p>Try to <b>scroll</b> inside this frame to 
+understand how sticky positioning works.</p>
+ <div class="sticky">I am sticky!</div>
+ <div style="padding-bottom:2000px">
+ <p>In this example, the sticky element 
+sticks to the top of the page (top: 0), when 
+you reach its scroll position.</p>
+ <p>Scroll back up to remove the 
+stickyness.</p>
+ </div>
+
+ <h2>Overflow: visible</h2>
+ <div>You can use the overflow property when 
+you want to have better control of the 
+layout. The overflow property specifies what 
+happens if content overflows an element's 
+box.</div>
+
+<h2>Float Right</h2>
+ <p>In this example, the image will float to the right in the paragraph, and the text in the 
+paragraph will wrap around the image.</p>
+ <p>
+ <img src="./Hankuk_university.jpg" alt="Hankuk_university" 
+style="width:170px;height:170px;margin-left:15px;">
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et 
+dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. 
+Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum 
+augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio.Praesent
+ convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed 
+ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. 
+Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. 
+Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. </p>
+
+<h2>Without clear</h2>
+<div class="div1"> div1 </div>
+<div class="div2"> div2 - Notice that div2 is after div1 in 
+the HTML code. 
+However, since div1 floats to the left, the text in div2 
+flows around div1. </div>
+<br><br>
+<h2>With clear</h2>
+<div class="div3"> div3 </div>
+<div class="div4"> div4 - Here, clear: left; moves div4 down 
+below the floating div3. 
+The value "left" clears elements floated to the left. You 
+can also clear "right" and "both". </div>
+
+
+
+
+
+<h2>Without Clearfix</h2>
+ <p>This image is floated to the right. It is also taller than the 
+element containing it, so it overflows outside of its container:</p>
+ <div>
+ <imgclass="img1" src="Hankuk_university.jpg" 
+alt="Hankuk_university" width="170" height="170">
+ Lorem ipsum dolor sit amet, consecteturadipiscingelit. Phasellus
+ imperdiet...
+ </div>
+ <h2 style="clear:right">With Clearfix</h2>
+ <p>We can fix this by adding a clearfixclass with overflow: auto; 
+to the containing element:</p>
+<div class="clearfix">
+ <imgclass="img2" src="Hankuk_university.jpg" 
+alt="Hankuk_university" width="170" height="170">
+ Lorem ipsum dolor sit amet, consecteturadipiscingelit. Phasellus
+ imperdiet...
+ </div>
+
+
+
+ <h2>Float Images Side by Side</h2>
+ <div>
+ <div class="img-container">
+ <img src="60_2_조커.png" alt="Italy" style="width:100%">
+ </div>
+ <div class="img-container">
+ <img src = "60_2_술사진.jpg" alt="Forest" style="width:100%">
+ </div>
+ <div class="img-container">
+ <img src = "60_2_보라배경.png" alt="Mountains" style="width:100%">
+ </div>
+ </div>
+
+
+ <h2>Vertical Navigation Bar</h2>
+ <ul>
+ <li><a  class = "active"  href="https://computer.hufs.ac.kr/sites/computer/index.do" 
+target="_blank">Computer Department</a></li>
+ <li><a href="https://computer.hufs.ac.kr/computer/10039/subview.do" 
+target="_blank">Undergraduate Guide</a></li>
+ <li><a href="https://computer.hufs.ac.kr/computer/10047/subview.do" 
+target="_blank">Class Information</a></li>
+ <li><a href="https://computer.hufs.ac.kr/computer/10058/subview.do" 
+target="_blank">Announcement</a></li>
+ <li><a href="https://computer.hufs.ac.kr/computer/10060/subview.do" 
+target="_blank">FAQ</a></li>
+ </ul>
+
+
+
+
+<ul>
+ <li><a class = "active" href="https://computer.hufs.ac.kr/sites/computer/index.do" target="_blank">Computer 
+Department</a></li>
+ <li><a href="https://computer.hufs.ac.kr/computer/10039/subview.do" target="_blank">Undergraduate Guide</a></li>
+ <li><a href="https://computer.hufs.ac.kr/computer/10047/subview.do" target="_blank">Class Information</a></li>
+ <li><a href="https://computer.hufs.ac.kr/computer/10058/subview.do" target="_blank">Announcement</a></li>
+ <li><a href="https://computer.hufs.ac.kr/computer/10060/subview.do" target="_blank">FAQ</a></li>
+ </ul>
+ <div style="margin-left:25%;padding:1px 16px;height:1000px;">
+ <h2>Fixed Full-height Side Nav</h2>
+ <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
+ <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. 
+If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
+ <p>Also notice that we have set overflow:auto to sidenav. 
+This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
+ <p>Some text..</p>
+ <p>Some text..</p>
+ <p>Some text..</p>
+ <p>Some text..</p>
+ <p>Some text..</p>
+ <p>Some text..</p>
+ <p>Some text..</p>
+</div>
+
+<h2>HoverableDropdown</h2>
+ <p>Move the mouse over the text below to open the dropdown content.</p>
+ <div class="dropdown" >
+ <span> Mouse over me </span>
+ <div class="dropdown-content" >
+ <p>Hello World!</p>
+ </div>
+ </div>
+
+ <h2>Dropdown Menu</h2>
+ <p>Move the mouse over the button to open the dropdown menu.</p>
+ <div class="dropdown" >
+ <button class="dropbtn" >Dropdown</button>
+ <div class="dropdown-content" >
+ <a href="https://computer.hufs.ac.kr/sites/computer/index.do" target="_blank">Computer Department</a>
+ <a href="https://computer.hufs.ac.kr/computer/10047/subview.do" target="_blank">Class Information</a>
+ <a href="https://computer.hufs.ac.kr/computer/10058/subview.do" target="_blank">Announcement</a>
+ <a href="https://computer.hufs.ac.kr/computer/10060/subview.do" target="_blank">FAQ</a>
+ </div>
+ </div>
+
+
+
+
+</body>

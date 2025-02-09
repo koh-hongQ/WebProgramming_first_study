@@ -1,0 +1,478 @@
+웹프로그래밍
+9.11
+element
+<p>에서 소문자 써야댐. 대문자 노노
+
+vs에서 우클릭 후 오픈윗라이브 서버 자주이용 고고
+
+아이콘 이미지로 만들기 아직 성공못함 37쪽
+--해결함.
+href="/images/Hankuk_university.jpg" 이거 대신
+href="Hankuk_university.jpg" 이거 쓰면 됨.
+
+
+9.25
+form 
+fname 같아야댐
+input label 순서 주의
+
+label에서 <br>로 버튼이 같은 줄이냐 아니냐 달라짐
+option value에서 selected 넣으면 순서가 앞으로 감
+
+Q. 비밀번호 만들기에서 나머지는 가려지고 마지막만 보이게 하는 방법? ex) 000000000a 등
+Q. 파일 업로드 버튼에서 버튼한번에 여러 파일을 올리는 법?
+
+radio 버튼은 그 자체버튼은 줄뛰기가 되나, 그 옆에 글자는 <br>넣자
+
+<hr> 로 수평선 그릴수 있슴 </hr>아님
+aside에서 head안의 스타일로 왼쪽 오른쪽 aside 가능
+
+&copy 로 copyright골뱅이같은기호 생성가능
+
+
+10.02
+iframe 에서 embed 비디오로 가야댐. 
+그거 안하면 비디오가 아닌 유튭사이트로 감.
+만약 embed 했는데 막힌다? 그럼 
+1. 내가 유튜브에 올리거나
+2. 따로 유튭에서 다운 받고 그걸로 올림
+
+css border 에서 width=두께, radius=틀의 모서리가 둥근정도.
+
+margin=줄 간격
+마진이 세 개로 주어지면 위, 양옆, 밑
+두개 면 위아래, 양옆
+한 개면 위아래양옆
+
+css많이마니 연습해~~
+
+과제 파일 업로드할 때 60_1이렇게 하기.
+만약 이전 과제에서 업데이트 되었다면 더 그렇게 하기?
+사진에도 60_bird 이런식으로..
+그리고 코드에서 사진 주소 빠뜨리지 말고.
+ppt에서 박스랑 윋쓰 왜 구현이 안되지??
+내가 찍은 사진 속 저장방식으로 과제 고고
+
+
+10.16 
+시험 정보
+1. mcq 
+2. fill blank - true/false
+3. 코드 보여짐- 그거 결과 그리기
+4. ask되면 그걸 코드로 쓰기
+
+폰트
+font-family: "Times New Roman", Times, serif
+여기서 세번쨰가 폰트패밀리, 실제로 작동하는건 첫번쨰 폰트
+
+테이블
+무조건 내용바꿔서 적용해보기
+
+fixed
+absolute에서의 top, right는 relative(엄마) 박스 기준.거기서 얼마나 떨어져있냐임.
+
+overflow
+scroll할 때 왜 수직으로만 되고 가로로는 안되는지. 
+스스로 해결해봐
+
+clearfix
+사진이 안넣어짐.. 뭐지
+
+image side by side
+사진이 안넣어지는데.?
+
+내비기이션 바
+border- ul에서 표 바깥 틀 다 만듬
+이후 li에서  border-bottom: 1px solid #555 이걸로 한줄한줄씩 표 내부의 줄 만듬
+last-child{border-bottom: none;
+ } 이걸로 마지막 줄은 추가 안함
+
+Fixed Full-height Side Nav
+개어렵네.. 심지어 안돌아감
+뭔말이지
+이후로도 다 안댐
+Horizontal Navigation Bar에서
+중요한 건 overflow가 hidden or horizontal
+
+dropdown에서
+빨간 박스 없애면 어떻게 되냐
+마지막 파란줄 숫자 0,0,0,0.2 꼭 수정하기. 이게 그림자?
+ .dropdown:hover.dropdown-content {display: block;} 이걸 없앤다? 그러면?
+아니면 저기서 display를 none을 하면?
+
+궁금한거 있으면 536호 고고
+
+
+10.30
+6쪽에서
+float : left 중요
+23쪽에서
+id=demo를 두군데에서 동시에 쓸 수 없음. 즉 
+1개의 <P> 당 1개의 버튼 쓸 수 있음.
+29쪽
+전구를 스위치 한개에서 한번에 키고 끄기 해봐
+28쪽
+id가 demo로 들어가는 <p>의 순서 중요
+36쪽
+<script src> 이거를 body안에 넣어도 됨.
+
+
+11.06
+44쪽
+var 보단 let 많이 씀. var은 old
+주석 한줄-//
+여러줄-/* */
+
+45쪽
+3Person 이런걸로 변수하면 안됨.
+변수는 대소문자구분함
+49쪽
+왜 홈피에 안뜨지.. 버전 문제인가?
+51쪽
+let은 자기 블록 안에서도 redeclared(변수 재선언) 불가능
+53쪽
+constant는 한줄안에서 다 써야됨.(reassign 불가능)
+constant랑 var을 toatal 앞에서 바꾸묜? 결과 달라짐
+57쪽
+let x=5;
+let z=10**x;
+결과는? 10^5
+59쪽
+===
+변수종류도 같고, 변수도 같고
+!==
+변수종류 다르거나 변수 다르거나 둘 중 하나
+
+ let text1 = "Apple";
+ let text2 = "Ali";
+ let result = text1 < text2;
+이거는 false 왜냐.
+글자가 2개 이상이면
+첫번째 글자만 비교하고 끝남.
+여기서 첫번째 글자들끼리 같으면,
+두번째 글자들끼리 비교.
+즉 p>l 이니깐 false.
+
+60쪽
+매우 중요. 시험문제 무조건나옴.
+let x=5 일 때
+x=="5" true 인데
+x==="5" false.
+61쪽
+js는 '비교할때만' , '==' 말고
+문자열을 수치/nan 으로 자동변환 가능
+
+2<"12" true. 
+왜냐 2<12 비교.
+"2"<"12" false.
+왜냐 2<1 비교. 끝 그래서 false
+즉 "23" <비교> "12" 이런건
+"2" <비교> "1" 그리고 "3" <비교> "2" 의 값과 같음. 이건 직접코딩해보자.
+
+"2"<"thon" true. 왜냐 t를 unicode로 바꿔서, 2<27? 이건 지피티 고고
+2<"thon" false. 왜냐 2<nan이거든.
+
+64쪽
+5&&1 우리가 아는 and.
+5&1 이진수 비교임. 
+0101 and 0001 비교와 같음.
+각걱 and로 비교-(0,0),(1,0),(0,0),(1,1)
+
+xor는
+0101
+0001  서로 곱함(?)-지피티 고고
+0100 결과
+
+left shift는 0101에서 맨 처음 0날리고, 101+0=1010
+rot left 는 0101에서 맨처음 0을 맨뒤로 보냄. 그래서 101+0=1010
+rot right는 반대.
+
+66쪽
+문자열+숫자형
+그럼 내가아는 그거대로 둘을 연결함.
+"hello"+5+5 이것도 결과는 "hello55" 왜냐
+계싼은 왼쪽에서 오른쪽으로.
+
+7장
+3쪽
+int, float, 뭐 이런거 없음.
+그냥 number임.
+
+5쪽
+숫자가 2^64 이하: 그냥 number.
+2^64 이상: 숫자 앞에 Bigint() 이렇게 붙영야댐
+
+7쪽
+ex.3이 1020 뜨는 이유:
+마지막 "the result is" 이거땜에 30으로 못더하고 문자열처럼 결합함.
+
+10쪽
+ let value = toCelsius 로 바꾸면
+함수전체가 다 뜸.
+
+document.getElementById("demo").innerHTML= "Temp in Celsius = " + toCelsius(77); 
+요로케 함수를 직접 넣어도 댐.
+
+13쪽
+new 이런거는 왠만해서 쓰지말고.
+
+15쪽
+작동이 왜 안되지..
+
+16쪽
+신기하네, 배열A를 복사해서 새로만든 배열A1 속 value를 바꾸면
+원래 배열A 속 value도 같이 바뀜.
+
+18쪽
+value 를 delete하면 
+출력할 때 undefined 나옴
+
+11.13 강의
+23쪽
+onclick 중요
+지피티 돌려보자..
+
+25쪽
+"" "" 동시에 쓰려면 / 사용하기
+
+26쪽
+js에서 웬만해서 new string 쓰면 안되는 이유.
+같은 2개의 new string인데 같다는 질문에도 false 가 뜸.
+
+28
+세번쨰 네모: charCodeAt() 이거임 이게 유니코드 관련
+인덱싱: (7,15), (-15,-7) 처음과 끝 주의. 마지막에서 앞까지
+
+31
+concat
+" "?
+trim end 왜 앞도 지움?
+pad- 총 글자수가 30이 되게 0을 추가. 즉 30이 7 이렇게 처음 글자수보다 작으면 안됨
+replace
+sensitive/insensitive 이거는 딱 단어 하나만 바꿈
+match globally 이거는 해당 단어 다 바꿈
+
+34
+object
+name, key 로 접근
+
+35
+array인데 object로 뜸
+
+27쪽은 
+시험에서 매우매우매우 중요.
+
+37
+delete() 이건 인덱스 위치 상관없음
+
+8장
+5쪽
+math.log(0)=ln(0) 과 같음 
+random 넘버 범위:  0<random넘버 <1
+1 안됨. 0.9999..까지가 범위
+
+7쪽
+
+
+기말때 매우매우매ㅜㅇ매우매우 중요 100퍼
+
+25쪽
+for 문 첫번째 조건에서 여러가지 초기화선언 가능.
+밖에다 빼놓기도 가능.
+
+세번째 조건 i++이거도 빼놓기 가능. for문 안에다가.
+
+28
+자세한건 사진 찍어놈. 내 카톡방에 있음
+30
+for in:
+key로 접근 
+for of:
+그냥 배열에 접근
+
+
+1120 강의
+4
+set에 object 넣으면 에러남
+
+
+
+8
+letters.add(person[x])
+letters.add(x) 이거 차이 구분.
+
+9
+정답에서
+for 문 안에 const x, let x 다 됨
+
+15 
+다시 해보자..
+
+22
+size() 이거는 에러.
+기말시험에 나옴. 녹음 다시 듣자.
+
+28
+function(발류, 키) 임. (키,발류) 하면 거꾸로 출력
+
+29
+let total = "    " ;
+ total += x;
+--->0500300200 뜸
+
+let total =  0 ;
+ total += x + "<br>" ;
+
+이떄의 차이점 구분
+
+["apples", 500],
+ ["bananas", 300],
+ ["oranges", 200],
+ ["oranges", 100],
+ ["oranges", 400],
+ ["oranges", 200]
+이때는 오렌지가 마지막꺼 기준. 겹치는 오렌지는 갱신되는거임.
+즉 500+300+200
+
+30
+다시 해보자..
+
+강의자료들은 다시 다운 받으면
+수정되서 나옴
+
+36
+제대로 이해해보자.. 앞의 내용다 이해한후에
+
+
+1127 강의
+4
+파라미터가 1개면 
+괄호 제거 가능
+
+14~18
+이해해보자..
+
+20
+js파일 import할 때 앞에 ./ 꼭 붙어야댐
+
+21
+디폴트: 함수를 export 할때 씀
+js파일에서 export default message; 이거 꼭 붙여야 댐
+
+27
+답: 나와의대화카톡에 올림
+
+33
++는 문자/숫자 계산 ㄷ ㅏ가능
+-는 무조건 숫자 계산만 가능.
+
+38
+if(x==19) 이후에 ; 있으면 안됌.
+
+39
+return ; 이거 안됨.
+
+
+
++)
+php 로 화면 보이기?
+3000? 5500?
+이거 알아보자.
+
+php pdf
+9
+php 파일 안에 html 코드 입력 가능.
+
+10
+echo 사용법
+echo 구문은 괄호를 사용해도, 사용하지 않아도 상관없이 사용 가능합니다:
+예) echo "Hello, World!"; 또는 echo("Hello, World!");
+echo 명령으로 출력하는 텍스트는 HTML 마크업을 포함할 수 있습니다:
+예) echo "<h1>Welcome to PHP!</h1>";
+
+
+더블 쿼트(") 사용 시:
+문자열 안에 변수를 직접 삽입할 수 있습니다.
+
+$text1 = "Hello";
+$text2 = "World";
+echo "$text1, $text2!";  // 출력: Hello, World!
+
+싱글 쿼트(') 사용 시:
+문자열 안에 변수를 직접 삽입할 수 없으며, 대신 **.(연결 연산자)**를 사용해야 합니다.
+
+$text1 = 'Hello';
+$text2 = 'World';
+echo $text1 . ', ' . $text2 . '!';  // 출력: Hello, World!
+
+
+
+
+
+1204 강의
+3
+for, id, name 바꿔서 런 해보기
+작동이 안됨. 고쳐보자
+마지막 과제도 직접 해보자
+
+22
+배열에서는 마지막에 콤마있어도 허용
+
+26
+ $fruits[] = "Orange";
+여기 괄호 안에 숫자 넣어도 됨. 
+이건 직접 해보기.
+
+33
+argument, parameter 차이 구분.
+
+34
+parameter 에 디폴트 가능.
+
+35
+5+"5" = 10으로 뜸
+
+36
+5+"5 days" 안됨.
+10으로 뜨는데 warning
+아니면 fatal error 이렇게 두가지로 뜸.
+
+41
+결과는 Your favorite color is red! Your favorite color is blue!
+
+48
+결과 오타. 두번쨰 세번째 결과가 서로 바뀜
+
+59,60,61
+다시 보기. 근데 다 이해했네~
+
+
+24.12.11
+5
+colomn: 데이터 타입
+row: 기록
+
+7
+공통된  데이터 타입 있으면 연관데이터베이스
+
+10 
+시험 아님
+
+26 
+시험 아님
+
+29 
+넣었을 때 몇번째 번호로 들어감? 이해해보자..
+
+33
+새로 데이터 만드는 건 두가지 방법.
+1. create table
+2. 버튼 누르고 insert into
+
+37
+DROP 이해해보자..
+
+11쪽이 매우매우 중요. 다 외우기.
+
+ggplot(data = mpg) +
+  geom_point(aes(x = displ, y = hwy), color = "blue")

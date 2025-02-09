@@ -1,0 +1,30 @@
+
+
+ /* html is a root element*/
+ html {
+    font-size: 16px;
+    }
+    .container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    }
+    h1 {
+    font-size: 3rem;
+    color: #0077cc;
+    }
+    p {
+    font-size: 2rem;
+    color: #0077cc;
+    }
+
+    .parent-element {
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        }
+        p {
+        font-size: 2em;
+        color: #0077cc;
+        }
