@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Hometown</title>
+    <style>
+        /* 기본 설정 */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+
+        /* 헤더 스타일 */
+        header {
+            background-color: #85f389;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            color: #ffe600;
+            margin: 0;
+        }
+
+        header h4 {
+            margin: 5px 0 15px;
+            font-size: 1.2rem;
+            color: #333;
+            font-style: italic;
+        }
+        /* 제목과 네비게이션 구분선 */
+        .divider {
+            width: 80%;
+            margin: 10px auto;
+            border-top: 2px solid white;
+        }
+
+         /* 네비게이션 링크 */
+         nav {
+            display: inline-block;
+            padding-top: 5px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1rem;
+            position: relative;
+        }
+
+        nav a::after {
+            content: '| ';
+            position: absolute;
+            right: -10px;
+            color: white;
+        }
+
+        nav a:last-child::after {
+            content: '';
+        }
+
+        /* 섹션 스타일 */
+        section {
+            padding: 20px;
+            margin: 15px;
+            background-color: white;
+            border-radius: 5px;
+        }
+
+        /* 테이블 스타일 */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            text-align:center;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+       
+
+        /* 폼 스타일 */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, select, textarea {
+            margin: 8px 0;
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+        aside {
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: center;
+        font-style: italic;
+        background-color: rgb(243, 180, 180);
+        }
+
+        /* 푸터 스타일 */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.9rem;
+        }
+        .note{background-color:#f4e988;}
+
+        .box{border:2px outset rgb(102, 218, 102);border-width: 5px;}
+
+        .center{text-align:center;}
+
+        .font-title{font-family: 'Times New Roman', Times, serif}
+
+        .font-nottitle{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif}
+    
+    
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1> Seocho-gu, Seoul</h1>
+        <h4>: my fantastic hometown</h4>
+        <p style="color:black;">Seocho-gu: The City Opening the Future of Seoul </p>
+        <!-- Navigation Links -->
+        <nav>
+            <a href="#history">History  </a>
+            <a href="#attractions">Attractions  </a>
+            <a href="#food">Local Food  </a>
+            <a href="#fun-facts">Fun Facts  </a>
+        </nav>
+    </header>
+
+<!-- History Section -->
+
+<article id="history">
+        
+        <ul >
+        <li><section class="box">
+            <h2 class="note font-title">History 1: How Did Seocho-gu Develop?</h2>
+            <p>Seocho-gu began to be developed into a modern urban area with the 1965 Seoul Metropolitan Basic Urban Plan. Following this, rapid urbanization took place every year through various projects, transforming it into a beautiful and livable advanced city as it is today.</p>
+        </section></li>
+        <li><section class="box">
+            <h2 class="note font-title">History 2: Origin of the Name "Seocho"</h2>
+            <p>The name "Seocho" originates from "Seoripul." During the Goguryeo period, rice was referred to as "Seohwa," and records indicate that rice from Seocho-dong was offered to the king. "Seocho" signifies a plant associated with good fortune, meaning "rice."</p>
+        </section></li>
+        <li><section class="box">
+            <h2 class="note font-title">History 3: When Did It Become Known as Seocho-gu?</h2>
+            <p>The name Seocho-gu was first used on January 1, 1988, when Seocho-gu was separated from Gangnam-gu.</p>
+        
+            <aside><p>Learn more: <br><a href="https://www.seocho.go.kr/site/seocho/05/10502010000002015062601.jsp" target="_blank">History of Seocho-gu</a><br> <a href="https://www.seocho.go.kr/site/seocho/05/10502040100002015070810.jsp" target="_blank">Origin of the Name "Seocho-gu"</a></p></aside>
+
+        </section></li>
+        
+         <!-- External Links -->
+        </ul>
+        
+</article>
+
+<!-- Attractions Section -->
+<section id="attractions" class="box center">
+            <h2 class="note font-title">Attractions</h2>
+            <!-- Attractions Table -->
+            <table class="font-nottitle ">
+                <tr>
+                    <th>Name</th>
+                    <th>Type of Attraction</th>
+                    <th style="width:50%;height:70%;" >Description</th>
+                </tr>
+                <tr>
+                    <td>Banpo Hangang Park</td>
+                    <td>Park<br><img src="202200307_반포한강.png" alt="Attraction 1" width="250" height="150"></td>
+                    <td> Every time Moonlight Rainbow Fountain sprays water, it creates a beautiful scene, offering a variety of attractions and entertainment like a seven-colored rainbow.</td>
+                </tr>
+                <tr>
+                    <td>Seoul Arts Center</td>
+                    <td>arts complex<br><img src="202200307_예술의전당.png" alt="Attraction 2" width="250" height="150"> </td>
+                    <td> Located in Seocho-dong, Seocho-gu, Seoul, it is the largest comprehensive arts facility in South Korea.</td>
+                </tr>
+            </table>
+</section>
+
+<!-- Local Food Section -->
+
+<section id="food" class="box center">
+            <h2 class="note font-title">Popular Local food</h2>
+
+            <ul class="font-nottitle">
+                <li>&#127858;&#127858;&#127858;&#127858;&#127858;등심 국밥&#127858;&#127858;&#127858;&#127858;&#127858;<br><br><img src="202200307_등심국밥.png" alt="Dish 1" width="250" height="150"></li><br>
+                <li>&#127831;&#127831;&#127831;&#127831;&#127831;치즈닭갈비&#127831;&#127831;&#127831;&#127831;&#127831; <br><br><img src="202200307_치즈닭갈비.png" alt="Dish 2" width="250" height="150"></li><br>
+                <li>&#127830;&#127830;&#127830;&#127830;&#127830;삼겹살&#127830;&#127830;&#127830;&#127830;&#127830;<br><br><img src="202200307_삼겹살.png" alt="Dish 3" width="250" height="150"></li><br>
+                <li>&#127828;&#127828;&#127828;&#127828;&#127828;Handmade burger&#127828;&#127828;&#127828;&#127828;&#127828;<br><br><img src="202200307_수제버거.png" alt="Dish 4"width="250" height="150"></li><br>
+                <li>&#127863;&#127863;&#127863;&#127863;&#127863;Korean-French fusion food&#127863;&#127863;&#127863;&#127863;&#127863;<br><br><img src="202200307_프랑스퓨전.png" alt="Dish 5" width="250" height="150"></li>
+            </ul>
+</section>
+
+<!-- Fun Facts Section -->
+<section id="fun-facts" class="box">
+    <h2 class="note center font-title">Fun Facts about Seocho</h2>
+    <ul style="list-style-type:square;" class="font-nottitle">
+        <li>&#128205;It is prone to flooding&#127745; when it rains&#127783; because the altitude is low.</li>
+        <br><li>&#128205;There is a strong emphasis on education&#127979;, and there are many private tutoring institutes.&#128394;</li>
+        <br><li>&#128205;Many people with conservative&#128517; political views live here.&#128541;</li>
+        <br><li>&#128205;It is the setting for the movie&#128226; "말죽거리잔혹사"&#128226;</li>
+    </ul>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="box">
+    <h2 class="note center font-title">Contact or Leave a Comment</h2>
+    <form action="submit-form.php" method="post" autocomplete="on">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="010-1234-5678" pattern="[0-1]{3}-[0-9]{4}-[0-9]{4}">
+        
+        <label for="inquiry">Your questions about this page:</label>
+        <select id="inquiry" name="inquiry" >
+            <option value="restaurant">Famous restaurant in Seocho</option>
+            <option value="people">Famous people from Seocho</option>
+            <option value="history" selected>Weather about Seocho</option>
+        </select>
+
+        
+        <label for="inquiry">Your suggestions about this page:</label>
+        <input list ="suggest" name="suggest">
+        <datalist id="suggest" >
+            <option value="I would like more photos to be included.">
+            <option value="Please increase the font size.">
+            <option value="Show landscapes taken directly in Seocho.">
+        </datalist>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time">
+        
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Your message..."></textarea>
+        
+        <button type="submit">Submit</button>
+        <br><button type="reset">Reset</button>
+    </form>
+</section>
+
+
+<!-- Media Section -->
+<section id="media" class="box center">
+    <h2 class="note center font-title">Video about Seocho</h2>
+    <iframe width="800" height="450"  src="https://www.youtube.com/embed/ZzPVX-gJqr8?autoplay=1&mute=1" title="서초구 홍보영상 SYMPHONY OF SEOCHO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 My Hometown. All rights reserved.</p>
+    <p><a href="#header">Back to top</a></p>
+    <p><a href="#history">Back to history Section</a></p>
+    <p><a href="#attractions">Back to attractions Section</a></p>
+    <p><a href="#food">Back to food Section</a></p>
+    <p><a href="#fun-facts">Back to fun_facts</a></p>
+
+    
+</footer>
+</main>
+</body>
+</html>
