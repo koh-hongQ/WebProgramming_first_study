@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="60_styles.css">
+    
+    <script src="60_script.js" defer></script>
+    <title>My Hometown</title>
+ 
+     
+</head>
+<body>
+    
+    <!-- Header Section -->
+    <header>
+<!-- innerHTML -->
+        <h1 id="seoul"> Seocho-gu, Seoul</h1>
+        <h4>: my fantastic hometown</h4>
+        <p style="color:black;">Seocho-gu: The City Opening the Future of Seoul </p>
+<!-- Second alert --><!-- Events(onclick) -->
+        <button type = "button" onclick="alert('Welcome to our homepage! Seocho-gu is a beautiful city with a population of 412,000.')">Click!</button>
+        <!-- Navigation Links -->
+        <nav>
+            <div class="nav-dropdown">
+                <a href="#history1">History</a> <!-- 드롭다운 부모 링크 -->
+                <div class="nav-dropdown-content">
+                    <a href="#history1">History 1</a>
+                    <a href="#history2">History 2</a>
+                    <a href="#history3">History 3</a>
+                </div>
+            </div>
+            <a href="#attractions">Attractions  </a>
+            <a href="#food">Local Food  </a>
+            <a href="#fun-facts">Fun Facts  </a>
+        </nav>
+<!-- document.write --><!-- Events(onclick) -->
+        <button type = "button" onclick="write2()">Click!</button>
+    </header>
+
+    
+<!-- History Section -->
+
+
+<article >
+        
+        <ul >
+        <li><section class="box" id="history1">
+            <h2 class="note font-title">History 1: How Did Seocho-gu Develop?</h2>
+            <p>Seocho-gu began to be developed into a modern urban area with the 1965 Seoul Metropolitan Basic Urban Plan. Following this, rapid urbanization took place every year through various projects, transforming it into a beautiful and livable advanced city as it is today.</p>
+ <!-- //Arithmetic, Comparison, and Logical Operators , first function-->
+            <p>And so, Seocho-gu has now become a city with a population of 
+                <p2 id="popul" style="color:red"></p2></p>
+            
+        
+        </section></li>
+        <li><section class="box" id="history2">
+            <h2 class="note font-title">History 2: Origin of the Name "Seocho"</h2>
+            <p>The name "Seocho" originates from "Seoripul." During the Goguryeo period, rice was referred to as "Seohwa," and records indicate that rice from Seocho-dong was offered to the king. "Seocho" signifies a plant associated with good fortune, meaning "rice.". 
+<!-- Second function -->
+                Additionally, Banpo, a neighborhood in Seocho-gu, originates from the word <p3 id="origin" style="color:red"></p3> </p>
+        </section></li>
+        <li><section class="box" id="history3">
+            <h2 class="note font-title">History 3: When Did It Become Known as Seocho-gu?</h2>
+            <p>The name Seocho-gu was first used on January 1, 1988, when Seocho-gu was separated from Gangnam-gu.</p>
+        
+            <aside><p>Learn more: <br><a href="https://www.seocho.go.kr/site/seocho/05/10502010000002015062601.jsp" target="_blank">History of Seocho-gu</a><br> <a href="https://www.seocho.go.kr/site/seocho/05/10502040100002015070810.jsp" target="_blank">Origin of the Name "Seocho-gu"</a></p>
+            <br><p>During the Joseon Dynasty, parts of Yeomgok-dong, Shinwon-dong, Naegok-dong, and Yangjae-dong were in Gwangju-gun, and the remaining area was in Gwacheon-gun. In 1914, Gwacheon-gun was integrated into Siheung-gun.
+
+                Until the 1960s, the area was mostly rice fields. It is also the background to the brutal history of Maljukgeori, set in Gangnam Eunkwang Girls’ High School and Sangmun High School. In 1963, Sindong-myeon, Siheung-gun, Gyeonggi-do, was incorporated into Yeongdeungpo-gu, and Eonju-myeon, Gwangju-gun, was incorporated into Seongdong-gu. Among the former Sindong-myeon areas, the Dongjak-daero area, excluding Bangbae-dong, was incorporated into Seongdong-gu in 1973 following the establishment of Gwanak-gu.
+                
+                Subsequently, in 1975, the entire area south of the Han River in Seongdong-gu, including the current Seocho-gu, was divided into Gangnam-gu.</p></aside>
+
+        </section></li>
+        
+         <!-- External Links -->
+        </ul>
+        
+</article>
+<!-- Attractions Section -->
+<section id="attractions" class="box center">
+            <h2 class="note font-title">Attractions</h2>
+            <!-- Attractions Table -->
+            <table class="font-nottitle ">
+                <tr>
+                    <th>Name</th>
+                    <th>Type of Attraction</th>
+                    <th style="width:50%;height:70%;" >Description</th>
+                </tr>
+                <tr>
+                    <td>Banpo Hangang Park</td>
+                    <td>Park<br><img src="60_images/202200307_반포한강.png" alt="Attraction 1" width="250" height="150"></td>
+                    <td> Every time Moonlight Rainbow Fountain sprays water, it creates a beautiful scene, offering a variety of attractions and entertainment like a seven-colored rainbow.</td>
+                </tr>
+                <tr>
+                    <td>Seoul Arts Center</td>
+                    <td>arts complex<br><img src="60_images/202200307_예술의전당.png" alt="Attraction 2" width="250" height="150"> </td>
+                    <td> Located in Seocho-dong, Seocho-gu, Seoul, it is the largest comprehensive arts facility in South Korea.</td>
+                </tr>
+            </table>
+</section>
+
+<!-- Local Food Section -->
+
+<section id="food" class="box center">
+            <h2 class="note font-title">Popular Local food</h2>
+
+            
+            
+
+            <ol class="font-nottitle ">
+                
+                 
+               
+                <li><p class="clear ">&#127858;&#127858;&#127858;&#127858;&#127858;등심 국밥&#127858;&#127858;&#127858;&#127858;&#127858;</p>
+                    <div class="clearfix">
+                <img src="60_images/202200307_등심국밥.png" alt="Dish 1" width="250" height="150">
+                    </div>    
+                </li>
+
+                <li>
+                <p class="clear ">&#127831;&#127831;&#127831;&#127831;&#127831;치즈닭갈비&#127831;&#127831;&#127831;&#127831;&#127831; </p>
+                    <div class="clearfix">
+                <img src="60_images/202200307_치즈닭갈비.png" alt="Dish 1" width="250" height="150">
+                    </div>
+                </li>
+
+                <li>
+                <p class="clear ">&#127830;&#127830;&#127830;&#127830;&#127830;삼겹살&#127830;&#127830;&#127830;&#127830;&#127830;</p>
+                    <div class="clearfix">
+                <img  src="60_images/202200307_삼겹살.png" alt="Dish 3" width="250" height="150"><br>
+                    </div>
+                </li>
+
+                 <br><br>
+            
+                <li>&#127828;&#127828;&#127828;&#127828;&#127828;Handmade burger&#127828;&#127828;&#127828;&#127828;&#127828;<br><br><img src="60_images/202200307_수제버거.png" alt="Dish 4"width="250" height="150"></li><br>
+                <li>&#127863;&#127863;&#127863;&#127863;&#127863;Korean-French fusion food&#127863;&#127863;&#127863;&#127863;&#127863;<br><br><img src="60_images/202200307_프랑스퓨전.png" alt="Dish 5" width="250" height="150"></li>
+            </ol>
+
+ <!-- Error, try, catch,throw -->
+            <p style="color:red">So, what is your favorite? input the number of food</p>
+            <input id="demo" type="text">
+            <button type="button" onclick="ErrorFunction()" >Click!</button>
+            <p id="p111"></p>
+
+
+
+
+
+        </section>
+
+<!-- Fun Facts Section -->
+<section id="fun-facts" class="box">
+    <h2 class="note center font-title">Fun Facts about Seocho</h2>
+    <ul style="list-style-type:square;" class="font-nottitle">
+        <li>&#128205;It is prone to flooding&#127745; when it rains&#127783; because the altitude is low.</li>
+        <br><li>&#128205;There is a strong emphasis on education&#127979;, and there are many private tutoring institutes.&#128394;</li>
+        <br><li>&#128205;Many people with conservative&#128517; political views live here.&#128541;</li>
+        <br><li>&#128205;It is the setting for the movie&#128226; "말죽거리잔혹사"&#128226;</li>
+    </ul>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="box">
+    <h2 class="note center font-title">Contact or Leave a Comment</h2>
+    <form action="60_back.php" method="post" autocomplete="on">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" placeholder="010-1234-5678" pattern="[0-1]{3}-[0-9]{4}-[0-9]{4}">
+        
+        <label for="inquiry">Your questions about this page:</label>
+        <select id="inquiry" name="inquiry" >
+            <option value="restaurant">Famous restaurant in Seocho</option>
+            <option value="people">Famous people from Seocho</option>
+            <option value="history" selected>Weather about Seocho</option>
+        </select>
+
+        
+        <label for="inquiry">Your suggestions about this page:</label>
+        <input list ="suggest" name="suggest">
+        <datalist id="suggest" >
+            <option value="I would like more photos to be included.">
+            <option value="Please increase the font size.">
+            <option value="Show landscapes taken directly in Seocho.">
+        </datalist>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time">
+        
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" placeholder="Your message..."></textarea>
+        
+        <button type="submit">Submit</button>
+        <br><button type="reset">Reset</button>
+    </form>
+</section>
+
+
+<!-- Media Section -->
+<section id="media" class="box center">
+    <h2 class="note center font-title">Video about Seocho</h2>
+    <iframe width="800" height="450"  src="https://www.youtube.com/embed/ZzPVX-gJqr8?autoplay=1&mute=1" title="서초구 홍보영상 SYMPHONY OF SEOCHO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 My Hometown. All rights reserved.</p>
+    <p><a href="#history1">Back to top</a></p>
+    <p><a href="#history1">Back to history Section</a></p>
+    <p><a href="#attractions">Back to attractions Section</a></p>
+    <p><a href="#food">Back to food Section</a></p>
+    <p><a href="#fun-facts">Back to fun_facts</a></p>
+
+    
+</footer>
+</main>
+</body>
+</html>
